@@ -1,0 +1,192 @@
+font-family = ComicCode Nerd Font SemiBold
+font-family-bold = ComicCode Nerd Font Bold
+font-family-italic = ComicCode Nerd Font SemiBold
+font-family-bold-italic = ComicCode Nerd Font Bold
+font-size = 14
+font-thicken = true
+font-thicken-strength = 1
+shell-integration-features = no-cursor
+cursor-style = block
+cursor-color = #b4befe
+cursor-opacity = 1
+
+title = " "
+# macos-titlebar-style = hidden
+window-theme = light
+window-show-tab-bar = never
+window-titlebar-background = #F4F4F4
+window-titlebar-foreground = #11111b
+clipboard-read = allow
+copy-on-select = false
+#macos-window-buttons = hidden
+window-decoration = client
+macos-titlebar-style = native
+macos-titlebar-proxy-icon = hidden
+macos-icon = blueprint
+macos-icon-frame = plastic
+theme = GitHub Light Default
+window-inherit-working-directory = true
+
+window-padding-x = 16
+window-padding-y = 16
+
+macos-auto-secure-input = false
+
+selection-foreground = #11111b
+selection-background = #f5e0dc
+
+
+
+keybind = super+shift+d=new_split:down
+keybind = super+enter=toggle_fullscreen
+keybind = super+alt+shift+j=write_screen_file:open
+keybind = super+2=goto_tab:2
+keybind = super+digit_6=goto_tab:6
+keybind = super+k=text:\x0c
+keybind = super+page_down=scroll_page_down
+keybind = super+4=goto_tab:4
+keybind = super+shift+z=redo
+keybind = super+shift+v=paste_from_selection
+keybind = super+w=close_surface
+keybind = shift+page_down=adjust_selection:page_down
+keybind = super+7=goto_tab:7
+keybind = shift+arrow_down=adjust_selection:down
+keybind = alt+arrow_left=goto_split:previous
+keybind = super+5=goto_tab:5
+keybind = super+3=goto_tab:3
+keybind = super+a=select_all
+keybind = super+arrow_left=text:\\x01
+keybind = shift+page_up=adjust_selection:page_up
+keybind = super+0=reset_font_size
+keybind = super+digit_2=goto_tab:2
+keybind = super+shift+bracket_left=previous_tab
+keybind = super+shift+,=reload_config
+keybind = super+,=open_config
+keybind = super+ctrl+shift+j=write_screen_file:copy
+keybind = paste=paste_from_clipboard
+keybind = alt+arrow_right=goto_split:next
+keybind = super+alt+arrow_up=goto_split:up
+keybind = super+ctrl+arrow_right=resize_split:right,10
+#keybind = alt+arrow_left=esc:b
+keybind = super+equal=increase_font_size:1
+keybind = ctrl+tab=next_tab
+keybind = super+digit_4=goto_tab:4
+keybind = super+q=quit
+keybind = super+shift+arrow_up=jump_to_prompt:-1
+keybind = super+alt+arrow_right=goto_split:right
+keybind = super+ctrl+equal=equalize_splits
+keybind = super+digit_7=goto_tab:7
+keybind = super+ctrl+f=toggle_fullscreen
+keybind = super+backspace=text:\\x15
+keybind = super+6=goto_tab:6
+keybind = super+page_up=scroll_page_up
+keybind = super+1=goto_tab:1
+keybind = super+alt+w=close_tab:this
+keybind = super+end=scroll_to_bottom
+keybind = super+-=decrease_font_size:1
+keybind = super+arrow_up=jump_to_prompt:-1
+keybind = super+shift+t=undo
+keybind = super+alt+arrow_left=goto_split:left
+keybind = super+z=undo
+keybind = super+digit_8=goto_tab:8
+keybind = super+9=last_tab
+keybind = shift+arrow_up=adjust_selection:up
+keybind = super+home=scroll_to_top
+keybind = super+digit_1=goto_tab:1
+keybind = super+shift+w=close_window
+keybind = super+alt+shift+w=close_all_windows
+keybind = super+ctrl+arrow_down=resize_split:down,10
+#keybind = super+t=new_tab
+keybind = shift+end=adjust_selection:end
+keybind = super+v=paste_from_clipboard
+keybind = shift+arrow_right=adjust_selection:right
+keybind = super+c=copy_to_clipboard
+keybind = super+ctrl+arrow_left=resize_split:left,10
+keybind = super+shift+enter=toggle_split_zoom
+keybind = super+arrow_right=text:\\x05
+keybind = super++=increase_font_size:1
+keybind = super+shift+p=toggle_command_palette
+keybind = super+8=goto_tab:8
+keybind = shift+arrow_left=adjust_selection:left
+keybind = super+shift+arrow_down=jump_to_prompt:1
+keybind = super+alt+arrow_down=goto_split:down
+keybind = alt+arrow_down=equalize_splits
+keybind = copy=copy_to_clipboard
+keybind = super+shift+j=write_screen_file:paste
+keybind = super+shift+bracket_right=next_tab
+keybind = super+arrow_down=jump_to_prompt:1
+keybind = ctrl+shift+tab=previous_tab
+#keybind = alt+arrow_right=esc:f
+#keybind = super+n=new_window
+keybind = shift+home=adjust_selection:home
+keybind = super+alt+i=inspector:toggle
+keybind = super+digit_5=goto_tab:5
+keybind = super+digit_3=goto_tab:3
+keybind = super+ctrl+arrow_up=resize_split:up,10
+keybind = super+t=new_split:right
+
+background-opacity = 1
+background-blur = false
+unfocused-split-opacity = 0.333
+background-opacity-cells = false
+unfocused-split-fill = #F0F0F0
+split-divider-color = #E6E6E6
+window-new-tab-position = end
+resize-overlay = never
+copy-on-select = false
+
+background = #F4F4F4
+foreground = #11111b
+
+bell-features = no-title
+
+
+#Black (SYSTEM)	#000000	rgb(0,0,0)	hsl(0,0%,0%)
+palette = 0=#11111b
+
+#Maroon (SYSTEM)	#800000	rgb(128,0,0)	hsl(0,100%,25%)
+palette = 1=#e64553
+
+#Green (SYSTEM)	#008000	rgb(0,128,0)	hsl(120,100%,25%)
+palette = 2=#40a02b
+
+#Olive (SYSTEM)	#808000	rgb(128,128,0)	hsl(60,100%,25%)
+palette = 3=#dc8a78
+
+#Navy (SYSTEM)	#000080	rgb(0,0,128)	hsl(240,100%,25%)
+palette = 4=#1e66f5
+
+#Purple (SYSTEM)	#800080	rgb(128,0,128)	hsl(300,100%,25%)
+palette = 5=#8839ef
+
+#Teal (SYSTEM)	#008080	rgb(0,128,128)	hsl(180,100%,25%)
+palette = 6=#179299
+
+#Silver (SYSTEM)	#c0c0c0	rgb(192,192,192)	hsl(0,0%,75%)
+palette = 7=#acb0be
+
+#Grey (SYSTEM)	#808080	rgb(128,128,128)	hsl(0,0%,50%)
+palette = 8=#5c5f77
+
+#Red (SYSTEM)	#ff0000	rgb(255,0,0)	hsl(0,100%,50%)
+palette = 9=#d20f39
+
+#Lime (SYSTEM)	#00ff00	rgb(0,255,0)	hsl(120,100%,50%)
+palette = 10=#40a02b
+
+#Yellow (SYSTEM)	#ffff00	rgb(255,255,0)	hsl(60,100%,50%)
+palette = 11=#df8e1d
+
+#Blue (SYSTEM)	#0000ff	rgb(0,0,255)	hsl(240,100%,50%)
+palette = 12=#1e66f5
+
+#Fuchsia (SYSTEM)	#ff00ff	rgb(255,0,255)	hsl(300,100%,50%)
+palette = 13=#ea76cb
+
+#Aqua (SYSTEM)	#00ffff	rgb(0,255,255)	hsl(180,100%,50%)
+palette = 14=#04a5e5
+
+#White (SYSTEM)	#ffffff	rgb(255,255,255)	hsl(0,0%,100%)
+palette = 15=#acb0be
+
+#custom-shader = shaders/debug_cursor_animated.glsl
